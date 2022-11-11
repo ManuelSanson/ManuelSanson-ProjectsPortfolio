@@ -1,0 +1,74 @@
+.sectionContainer {
+    margin-top: 75px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: burlywood;
+    font-size: 65px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.welcome {
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+.welcome h2 {
+    color: burlywood;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.welcome p {
+    color: burlywood;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome {
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .banner{
+        font-size: 35px;
+    }
+    .welcome {
+        max-width: 80%;
+    }
+    .welcome h2 {
+        font-size: 25px;
+    }
+    .welcome p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner{
+        font-size: 30px;
+    }
+    .welcome h2 {
+        font-size: 20px;
+    }
+    .welcome p {
+        color: burlywood;
+        font-size: 14px;
+    }
+}
