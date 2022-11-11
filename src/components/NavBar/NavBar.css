@@ -30,6 +30,12 @@
     font-weight: bold;
     color: #0a0a3b;
     cursor: pointer;
+    text-decoration: none;
+}
+
+
+.chakra-breadcrumb__list-item a:hover {
+    text-decoration: none;
 }
 
 .link:hover {

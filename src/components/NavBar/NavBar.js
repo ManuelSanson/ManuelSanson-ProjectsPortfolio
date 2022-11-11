@@ -56,16 +56,16 @@ const NavBar = () => {
             <Show breakpoint='(min-width: 577px)'>
                 <Breadcrumb separator='' className='largeMenuContainer'>
                     <BreadcrumbItem>
-                        <BreadcrumbLink href='#' className='link'>HOME</BreadcrumbLink>
+                        <BreadcrumbLink className='link' onClick={()=> scrollHamburger(home)}>HOME</BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
                         <BreadcrumbLink onClick={()=> scrollToSection(projects)} className='link'>PROJECTS</BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <BreadcrumbLink href='#' className='link'>ABOUT ME</BreadcrumbLink>
+                        <BreadcrumbLink className='link' onClick={()=> scrollHamburger(aboutMe)}>ABOUT ME</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem isCurrentPage>
-                        <BreadcrumbLink href='#' className='link'>CONTACT</BreadcrumbLink>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink className='link' onClick={()=> scrollHamburger(contact)}>CONTACT</BreadcrumbLink>
                     </BreadcrumbItem>
                 </Breadcrumb>
             </Show>
