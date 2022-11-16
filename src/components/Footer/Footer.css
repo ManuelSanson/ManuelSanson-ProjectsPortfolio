@@ -1,0 +1,36 @@
+.footerContainer {
+    background-color: burlywood;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.footerContactData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .footerContainer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footerLogo {
+        margin-bottom: 15px;
+    }
+    .contactContainer {
+        justify-content: center;
+    }
+}
