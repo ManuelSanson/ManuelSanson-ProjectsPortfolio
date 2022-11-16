@@ -15,7 +15,7 @@ const Projects = () => {
 
             {/* Translator Landing Page */}
             <section className='projectsContainer'>
-                <article className='project' data-aos={'fade-right'} data-aos-duration={"800"}>
+                <article className='project' data-aos={'fade-up'} data-aos-duration={"800"}>
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
@@ -45,7 +45,7 @@ const Projects = () => {
 
             {/* E-commerce */}
             <section className='projectsContainer'>
-                <article className='project' data-aos={'fade-left'} data-aos-duration={"800"}>
+                <article className='project' data-aos={'fade-up'} data-aos-duration={"800"}>
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
@@ -75,7 +75,7 @@ const Projects = () => {
 
             {/* Gym App */}
             <section className='projectsContainer'>
-                <article className='project' data-aos={'fade-right'} data-aos-duration={"800"}>
+                <article className='project' data-aos={'fade-up'} data-aos-duration={"800"}>
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
@@ -105,7 +105,7 @@ const Projects = () => {
 
             {/* CTM Rugby Landing Page */}
             <section className='projectsContainer'>
-                <article className='project' data-aos={'fade-left'} data-aos-duration={"800"}>
+                <article className='project' data-aos={'fade-up'} data-aos-duration={"800"}>
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
@@ -135,7 +135,7 @@ const Projects = () => {
 
             {/* web_lab Landing Page */}
             <section className='projectsContainer'>
-                <article className='project' data-aos={'fade-rigy'} data-aos-duration={"800"}>
+                <article className='project' data-aos={'fade-up'} data-aos-duration={"800"}>
                     <Accordion allowToggle>
                     <AccordionItem>
                             <h2 className='projectTitle'>
