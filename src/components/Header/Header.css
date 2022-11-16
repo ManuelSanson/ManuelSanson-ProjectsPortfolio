@@ -1,7 +1,8 @@
 .headerContainer {
     background-color: transparent;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 10px;
     position: fixed;
     width: 100%;
@@ -10,25 +11,7 @@
     z-index: 3;
 }
 
-.headerText {
-    color: #0a0a3b;
-    font-weight: bold;
-    width: 60%;
-    text-align: center;
-    font-size: 20px;
-}
-
-@media screen and (max-width: 768px) and (min-width: 577px) {
-    .headerText {
-        width: 40%;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .headerText {
-        width: 100%;
-        text-align: center;
-        font-size: 15px;
-    }
+.headerLogo {
+    width: 90px;
+    cursor: pointer;
 }

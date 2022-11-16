@@ -1,14 +1,16 @@
 import React from 'react'
+import { useScrollSection } from '../../context/ScrollContext';
 import NavBar from '../NavBar/NavBar';
 import './Header.css';
 
 const Header = () => {
+    const { home, scrollToSection } = useScrollSection();
+
     return (
         <header className='headerContainer'>
             <NavBar/>
-            <div className='headerText'>
-                <h1>Manuel Sanson</h1>
-                <h2>Frontend Developer</h2>
+            <div className='headerLogo'>
+                <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668625995/DevPortfolio/FrontendLogo_sz4pfv.png' alt='Manuel Sanson Logo' onClick={()=> scrollToSection(home)} className='projectsLink'/>
             </div>
         </header>
     )
