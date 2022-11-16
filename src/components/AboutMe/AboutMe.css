@@ -1,0 +1,47 @@
+.aboutMeSection {
+    max-width: 80%;
+}
+
+.sectionParagraph {
+    color: burlywood;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.projectsLink {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.chakra-link {
+    text-decoration: none;
+}
+
+.projectsLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.downloadResumeButton {
+    background: burlywood;
+    color: #0a0a3b;
+}
+
+.downloadResumeButton:hover{
+    opacity: 0.7;
+    color: #0a0a3b;
+}
+
+@media screen and (max-width: 375px) {
+    .sectionParagraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sectionParagraph {
+        font-size: 14px;
+    }
+}
