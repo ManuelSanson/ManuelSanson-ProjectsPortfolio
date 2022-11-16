@@ -29,7 +29,7 @@ const Projects = () => {
                             <AccordionPanel pb={4} className='projectTextGif'>
                                 This is my personal webiste as Translator. It was made with ReactJS, using React Bootstrap, File Server, React Router Dom, i18n, React Awesome Slider and EmailJS. It has full responsive design.
                                 <img className='demo' alt='Translator Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668611337/DevPortfolio/TranslatorLandingDemo_e7z9lr.gif'/>
-                                <div className='projectButtonsContainer'>
+                                <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/TranslatorLandingPage/' target='blank'>
                                         <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
                                     </a>
@@ -59,7 +59,7 @@ const Projects = () => {
                             <AccordionPanel pb={4} className='projectTextGif'>
                                 Rugby Clothing E-Commerce built with ReactJS, using React Bootstrap, Firebase and React Router Dom. It has full responsive design.
                                 <img className='demo' alt='Rugby Clothing E-Commerce Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613567/DevPortfolio/RugbyE-CommerceDemo_f9b8wn.gif'/>
-                                <div className='projectButtonsContainer'>
+                                <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/ecommerceProject/' target='blank'>
                                         <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
                                     </a>
@@ -89,7 +89,7 @@ const Projects = () => {
                             <AccordionPanel pb={4} className='projectTextGif'>
                                 Gym App for players to register their data and gym/related info. The project was created using HTML, CSS, SASS and JavaScript. It has full responsive design.
                                 <img className='demo' alt='CTM Rugby Gym App Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613531/DevPortfolio/CTMGymAppDemo_v54wbu.gif'/>
-                                <div className='projectButtonsContainer'>
+                                <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/GymCTM/' target='blank'>
                                         <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
                                     </a>
@@ -119,7 +119,7 @@ const Projects = () => {
                             <AccordionPanel pb={4} className='projectTextGif'>
                                 Landing page for CTM Rugby. The project was created using HTML, CSS and JavaScript. It has full responsive design.
                                 <img className='demo' alt='CTM Rugby Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613351/DevPortfolio/CTMRugbyLandingDemo_egovy3.gif'/>
-                                <div className='projectButtonsContainer'>
+                                <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/CTMRugby-website/index.html' target='blank'>
                                         <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
                                     </a>
@@ -149,7 +149,7 @@ const Projects = () => {
                             <AccordionPanel pb={4} className='projectTextGif'>
                                 Landing page for web_lab. The project was created using HTML, CSS, SASS, Bootstrap and AOS. It has full responsive design.
                                 <img className='demo' alt='web_lab Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613469/DevPortfolio/web_labLandingDemo_ydrrhy.gif'/>
-                                <div className='projectButtonsContainer'>
+                                <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/ProyectoFinal-web_lab/index.html' target='blank'>
                                         <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
                                     </a>
