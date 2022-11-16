@@ -29,7 +29,7 @@ const Home = () => {
                         1200,
                         ]}
                         speed={50}
-                        wrapper="p" 
+                        wrapper="span" 
                         repeat={Infinity}s
                     />
                 </p>
