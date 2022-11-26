@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
-  background-image: url("https://res.cloudinary.com/diqry3ihg/image/upload/v1668196074/DevPortfolio/Wallpaper_wymmfz.jpg") !important;
-  height: 100vh;
-  background-repeat: no-repeat;
+  background-color: #5b84c45c !important;
   font-family: 'Roboto Slab', serif;
 }
 
 .sectionContainer {
-  margin-top: 75px;
+  margin-top: 80px;
   margin-bottom: 150px;
   display: flex;
   flex-direction: column;
