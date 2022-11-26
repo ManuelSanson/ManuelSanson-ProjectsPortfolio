@@ -10,8 +10,9 @@ const Home = () => {
     return (
         <section className='sectionContainer' ref={home}>
             <div className='banner'>
-                <h1>Manuel Sanson</h1>
-                <h2>Frontend Developer</h2>
+                {/* <h1>Manuel Sanson</h1>
+                <h2>Frontend Developer</h2> */}
+                <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1669474375/DevPortfolio/Banner_c7b7z5.png' alt='Manuel Sanson, Frontend Developer - Banner'/>
             </div>
             <article className='welcome'>
                 <h2>Welcome</h2>
