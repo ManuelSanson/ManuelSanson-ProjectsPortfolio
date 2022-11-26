@@ -1,17 +1,16 @@
 .hamburgerMenuButton {
-    color: #0a0a3b;
+    color: #11224d;
     border: solid;
-    background-color: burlywood;
+    background-color: #f98125;
     margin: 5px;
 }
 
 .hamburgerMenuButton:hover {
-    color: burlywood;
-    background-color: #0a0a3b;
+    color: #f98125;
 }
 
 .chakra-modal__body {
-    background-color: burlywood;
+    background-color: #f98125;
 }
 
 .linkContainer {
@@ -28,11 +27,10 @@
     padding: 20px;
     font-size: 18px;
     font-weight: bold;
-    color: #0a0a3b;
+    color: #11224d;
     cursor: pointer;
     text-decoration: none;
 }
-
 
 .chakra-breadcrumb__list-item a:hover {
     text-decoration: none;
@@ -47,6 +45,14 @@
     width: 120%;
     display: flex;
     align-items: center;
+}
+
+.largeMenuContainer .link {
+    color: #f98125;
+}
+
+.largeMenuContainer .link:hover {
+    color: white;
 }
 
 @media screen and (max-width: 768px) and (min-width: 577px) {
