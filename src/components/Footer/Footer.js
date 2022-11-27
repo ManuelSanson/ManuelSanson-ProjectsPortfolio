@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className='footerContainer'>
             <div className='footerLogo'>
-                <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668625995/DevPortfolio/FrontendLogo_sz4pfv.png' alt='Manuel Sanson Logo' onClick={()=> scrollToSection(home)} className='projectsLink'/>
+                <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1669564167/DevPortfolio/MSFrontendLogo_kuoxx6.png' alt='Manuel Sanson Logo' onClick={()=> scrollToSection(home)} className='projectsLink'/>
             </div>
             <div className='footerContactData'>
                 <div className="contactContainer">
