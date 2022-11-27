@@ -1,5 +1,5 @@
 .sectionTitle {
-    color: burlywood;
+    color: #11242d;
     font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
@@ -12,8 +12,8 @@
 }
 
 .projectTitle {
-    color: #0a0a3b;
-    background-color: burlywood;
+    color: #11242d;
+    background-color: #f98125;
 }
 
 .boxTitle {
@@ -22,8 +22,8 @@
 }
 
 .projectTextGif {
-    color: #0a0a3b;
-    background-color: burlywood;
+    background-color: #5b84c4;
+    color: #11242d;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -48,13 +48,9 @@
     text-decoration: none;
 }
 
-.projectButton {
-    background: #0a0a3b;
-    color: burlywood;
-}
-
 .projectButton:hover{
     opacity: 0.7;
+    color: #11242d;
 }
 
 @media screen and (max-width: 375px) {

@@ -19,7 +19,7 @@ const Projects = () => {
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
-                            <AccordionButton _expanded={{ bg: '#0a0a3b', color: 'burlywood'}}>
+                            <AccordionButton _expanded={{ bg: '#11242d', color: '#f98125'}}>
                                 <Box flex='1' textAlign='center' className='boxTitle'>
                                     Translator Landing Page
                                 </Box>
@@ -31,10 +31,10 @@ const Projects = () => {
                                 <img className='demo' alt='Translator Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668611337/DevPortfolio/TranslatorLandingDemo_e7z9lr.gif'/>
                                 <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/TranslatorLandingPage/' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'}>Deploy</Button>
                                     </a>
                                     <a className='projectLink' href='https://github.com/ManuelSanson/TranslatorLandingPage' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b'>Repository</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'}>Repository</Button>
                                     </a>
                                 </div>
                             </AccordionPanel>
@@ -49,7 +49,7 @@ const Projects = () => {
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
-                            <AccordionButton _expanded={{ bg: '#0a0a3b', color: 'burlywood'}}>
+                            <AccordionButton _expanded={{ bg: '#11242d', color: '#f98125'}}>
                                 <Box flex='1' textAlign='center' className='boxTitle'>
                                     Rugby Clothing E-Commerce
                                 </Box>
@@ -61,10 +61,10 @@ const Projects = () => {
                                 <img className='demo' alt='Rugby Clothing E-Commerce Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613567/DevPortfolio/RugbyE-CommerceDemo_f9b8wn.gif'/>
                                 <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/ecommerceProject/' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'} >Deploy</Button>
                                     </a>
                                     <a className='projectLink' href='https://github.com/ManuelSanson/ecommerceProject' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b'>Repository</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'}>Repository</Button>
                                     </a>
                                 </div>
                             </AccordionPanel>
@@ -79,7 +79,7 @@ const Projects = () => {
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
-                            <AccordionButton _expanded={{ bg: '#0a0a3b', color: 'burlywood'}}>
+                            <AccordionButton _expanded={{ bg: '#11242d', color: '#f98125'}}>
                                 <Box flex='1' textAlign='center' className='boxTitle'>
                                     CTM Rugby Gym App
                                 </Box>
@@ -91,10 +91,10 @@ const Projects = () => {
                                 <img className='demo' alt='CTM Rugby Gym App Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613531/DevPortfolio/CTMGymAppDemo_v54wbu.gif'/>
                                 <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/GymCTM/' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'} >Deploy</Button>
                                     </a>
                                     <a className='projectLink' href='https://github.com/ManuelSanson/GymCTM' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b'>Repository</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'}>Repository</Button>
                                     </a>
                                 </div>
                             </AccordionPanel>
@@ -109,7 +109,7 @@ const Projects = () => {
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2 className='projectTitle'>
-                            <AccordionButton _expanded={{ bg: '#0a0a3b', color: 'burlywood'}}>
+                            <AccordionButton _expanded={{ bg: '#11242d', color: '#f98125'}}>
                                 <Box flex='1' textAlign='center' className='boxTitle'>
                                     CTM Rugby Landing Page
                                 </Box>
@@ -121,10 +121,10 @@ const Projects = () => {
                                 <img className='demo' alt='CTM Rugby Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613351/DevPortfolio/CTMRugbyLandingDemo_egovy3.gif'/>
                                 <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/CTMRugby-website/index.html' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'} >Deploy</Button>
                                     </a>
                                     <a className='projectLink' href='https://github.com/ManuelSanson/CTMRugby-website' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b'>Repository</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'}>Repository</Button>
                                     </a>
                                 </div>
                             </AccordionPanel>
@@ -139,7 +139,7 @@ const Projects = () => {
                     <Accordion allowToggle>
                     <AccordionItem>
                             <h2 className='projectTitle'>
-                            <AccordionButton _expanded={{ bg: '#0a0a3b', color: 'burlywood'}}>
+                            <AccordionButton _expanded={{ bg: '#11242d', color: '#f98125'}}>
                                 <Box flex='1' textAlign='center' className='boxTitle'>
                                     web_lab Landing Page
                                 </Box>
@@ -151,10 +151,10 @@ const Projects = () => {
                                 <img className='demo' alt='web_lab Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668613469/DevPortfolio/web_labLandingDemo_ydrrhy.gif'/>
                                 <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/ProyectoFinal-web_lab/index.html' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b' >Deploy</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'} >Deploy</Button>
                                     </a>
                                     <a className='projectLink' href='https://github.com/ManuelSanson/ProyectoFinal-web_lab' target='blank'>
-                                        <Button className='projectButton' colorScheme='#0a0a3b'>Repository</Button>
+                                        <Button className='projectButton' bgColor={'#f98125'} color={'#11242d'}>Repository</Button>
                                     </a>
                                 </div>
                             </AccordionPanel>
