@@ -11,7 +11,7 @@ import ScrollSectionProvider from './context/ScrollContext';
 function App() {
   return (
     <ChakraProvider>
-      <ScrollSectionProvider basename='/ProjectsPortfolio'>
+      <ScrollSectionProvider>
         <Header/>
         <Home/>
         <Projects/>
