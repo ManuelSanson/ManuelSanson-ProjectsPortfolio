@@ -1,12 +1,14 @@
 .footerContainer {
-    background-color: burlywood;
+    background-color: #193a6f;
+    color: #f98125;
+    font-weight: bold;
     padding: 30px;
     display: flex;
     justify-content: space-around;
 }
 
 .footerLogo {
-    width: 100px;
+    width: 120px;
     cursor: pointer;
 }
 
