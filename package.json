@@ -25,13 +25,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://manuelsanson.github.io/ManuelSanson-ProjectsPortfolio",
+  "homepage": "https://manuelsanson.github.io/ManuelSanson-ProjectsPortfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -49,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }

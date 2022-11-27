@@ -20,7 +20,7 @@ It has full responsive design
 
 ## Deployment
 
-[manuelsanson.github.io/TranslatorLandingPage/](https://manuelsanson.github.io/TranslatorLandingPage/)
+[manuelsanson.github.io/ManuelSanson-ProjectsPortfolio/](https://manuelsanson.github.io/ManuelSanson-ProjectsPortfolio/)
 
 ## Demo
 
