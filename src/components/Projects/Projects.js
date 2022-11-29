@@ -27,7 +27,7 @@ const Projects = () => {
                             </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4} className='projectTextGif'>
-                                This is my personal webiste as Translator. It was made with ReactJS, using React Bootstrap, File Server, React Router Dom, i18n, React Awesome Slider and EmailJS. It has full responsive design.
+                                This is my personal website as Translator. It was made with ReactJS, using React Bootstrap, File Server, React Router Dom, i18n, React Awesome Slider and EmailJS. It has full responsive design.
                                 <img className='demo' alt='Translator Landing Page Demo' src='https://res.cloudinary.com/diqry3ihg/image/upload/v1668611337/DevPortfolio/TranslatorLandingDemo_e7z9lr.gif'/>
                                 <div className='buttonsContainer'>
                                     <a className='projectLink' href='https://manuelsanson.github.io/TranslatorLandingPage/' target='blank'>
