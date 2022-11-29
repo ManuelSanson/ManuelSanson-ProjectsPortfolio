@@ -32,10 +32,10 @@ const NavBar = () => {
                 </Button>
                 <Drawer
                     isOpen={isOpen}
-                    placement='bottom'
+                    placement='left'
                     onClose={onClose}
                     finalFocusRef={btnRef}
-                    size='full'
+                    size='xs'
                 >
                     <DrawerOverlay />
                     <DrawerContent>
