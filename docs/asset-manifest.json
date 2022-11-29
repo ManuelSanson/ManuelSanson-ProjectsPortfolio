@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ManuelSanson-ProjectsPortfolio/static/css/main.bd270e5b.css",
+    "main.js": "/ManuelSanson-ProjectsPortfolio/static/js/main.460b1853.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ManuelSanson-ProjectsPortfolio/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/ManuelSanson-ProjectsPortfolio/index.html",
+    "main.bd270e5b.css.map": "/ManuelSanson-ProjectsPortfolio/static/css/main.bd270e5b.css.map",
+    "main.460b1853.js.map": "/ManuelSanson-ProjectsPortfolio/static/js/main.460b1853.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ManuelSanson-ProjectsPortfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd270e5b.css",
+    "static/js/main.460b1853.js"
+  ]
+}
