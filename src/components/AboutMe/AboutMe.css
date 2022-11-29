@@ -32,15 +32,18 @@
     opacity: 0.7;
 }
 
-@media screen and (max-width: 375px) {
-    .sectionParagraph {
-        font-size: 16px;
-    }
+@media screen and (max-width: 576px) {
     .aboutMeSection .buttonsContainer {
         flex-direction: column;
     }
     .downloadButton {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sectionParagraph {
+        font-size: 16px;
     }
 }
 

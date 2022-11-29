@@ -53,6 +53,12 @@
     color: #11242d;
 }
 
+@media screen and (max-width: 576px) {
+    .sectionTitle {
+        font-size: 35px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .sectionTitle {
         font-size: 25px;

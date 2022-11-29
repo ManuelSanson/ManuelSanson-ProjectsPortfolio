@@ -19,6 +19,19 @@
     text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+    .animatedText {
+        position: absolute;
+        width: 80%;
+    }
+    .welcome h2 {
+        font-size: 35px;
+    }
+    .welcome p {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .welcome h2 {
         font-size: 25px;
