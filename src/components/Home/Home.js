@@ -10,16 +10,13 @@ const Home = () => {
     return (
         <section className='sectionContainer' ref={home}>
             <div className='banner'>
-                {/* <h1>Manuel Sanson</h1>
-                <h2>Frontend Developer</h2> */}
                 <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1669474375/DevPortfolio/Banner_c7b7z5.png' alt='Manuel Sanson, Frontend Developer - Banner'/>
             </div>
             <article className='welcome'>
                 <h2>Welcome</h2>
-                <p>
-                    Hi, thank you for visiting my portfolio. I am Manuel Sanson and I am a Frontend React Developer.
-                </p>
-                <p>
+                <p> Hi, I'm Manuel and I'm a Frontend React Developer. </p>
+                <p> Thank you for visiting my portfolio. </p>
+                <p className='animatedText'>
                     <TypeAnimation
                         sequence={[
                         'Feel free to scroll down to see some of my projects',
