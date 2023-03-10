@@ -8,7 +8,7 @@ import './AboutMe.css';
 const AboutMe = () => {
     const { aboutMe, projects, scrollToSection } = useScrollSection();
     const saveResume = () => {
-        saveAs('https://res.cloudinary.com/diqry3ihg/image/upload/v1677871803/DevPortfolio/Resume_Front-End_Developer_Manuel_Sanson_oaalyd.jpg', 'Manuel Sanson, Frontend Developer - Resume');
+        saveAs('https://res.cloudinary.com/diqry3ihg/image/upload/v1678475711/DevPortfolio/Manuel_Sanson_Prado_-_Front-End_Developer_c3ucqb.jpg', 'Manuel Sanson, Frontend Developer - Resume');
     };
     const saveLetter = () => {
         saveAs('https://res.cloudinary.com/diqry3ihg/image/upload/v1677871808/DevPortfolio/Manuel_Sanson_Frontend_Developer_-_CoverLetter_page-0001_x5pdin.jpg', 'Manuel Sanson, Frontend Developer - CoverLetter');
