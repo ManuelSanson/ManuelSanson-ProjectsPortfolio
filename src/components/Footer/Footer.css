@@ -7,6 +7,22 @@
     justify-content: space-around;
 }
 
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia img {
+    width: 70px;
+    padding: 5px;
+}
+
+.socialMedia img:hover {
+    cursor: pointer;
+    width: 75px;
+}
+
 .footerLogo {
     width: 120px;
     cursor: pointer;
@@ -34,5 +50,15 @@
     }
     .contactContainer {
         justify-content: center;
+    }
+    .socialMedia {
+        order: 3;
+    }
+    .socialMedia img {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .socialMedia img:hover {
+        width: 55px;
     }
 }
